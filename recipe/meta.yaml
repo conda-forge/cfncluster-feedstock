@@ -1,6 +1,6 @@
 {% set name = "cfncluster" %}
-{% set version = "1.4.2" %}
-{% set sha256 = "64d47ccd6c5842385730a6e07047ca703edb232e8e75d65f470fcbd2b3beaf6e" %}
+{% set version = "1.5.4" %}
+{% set sha256 = "2fad5bcb2857a254d9b092e44df2fe25cd8e000b0eec4c22774b8fc795cc64e9" %}
 
 package:
   name: {{ name|lower }}
