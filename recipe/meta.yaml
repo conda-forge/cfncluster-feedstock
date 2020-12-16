@@ -1,4 +1,4 @@
-{% set version = "1.4.2" %}
+{% set version = "1.6.1" %}
 
 package:
   name: cfncluster
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/cfncluster/cfncluster-{{ version }}.tar.gz
-  sha256: 64d47ccd6c5842385730a6e07047ca703edb232e8e75d65f470fcbd2b3beaf6e
+  sha256: 85a3e80abaee284a5b7bb4f7cd479a331f6b5040eba4def5baa4fa644e5221e7
 
 build:
-  number: 1002
-  skip: True  # [win]
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  skip: true  # [win]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - cfncluster = cfncluster.cli:main
 
@@ -43,7 +43,7 @@ about:
   license: Apache
   license_file: LICENSE.txt
   license_family: APACHE
-  summary: 'Management of HPC clusters on Amazon Web Services using CloudFormation'
+  summary: Management of HPC clusters on Amazon Web Services using CloudFormation
 
   description: |
     CfnCluster (“cloud formation cluster”) is a framework that deploys and maintains high performance computing clusters on
