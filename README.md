@@ -1,11 +1,11 @@
-About cfncluster
-================
+About cfncluster-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cfncluster-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/awslabs/cfncluster
 
 Package license: Apache
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cfncluster-feedstock/blob/main/LICENSE.txt)
 
 Summary: Management of HPC clusters on Amazon Web Services using CloudFormation
 
